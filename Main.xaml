@@ -79,6 +79,6 @@
         <InArgument x:TypeArguments="x:String">tadah</InArgument>
       </Assign.Value>
     </Assign>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;this is placeholder: &quot; + Placeholder]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[&quot;this is placeholder's value: &quot; + Placeholder]" />
   </Sequence>
 </Activity>

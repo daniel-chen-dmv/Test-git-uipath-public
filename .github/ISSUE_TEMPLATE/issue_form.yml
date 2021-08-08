@@ -1,0 +1,20 @@
+name: Bug report
+description: stuff
+title: "[Bug]: "
+labels: [bug]
+assignees: 
+  - octocat
+body: 
+  - type: markdown
+  attributes: 
+    value: |
+      Thanks for taking the time to fill out this bug report!
+  - type: input
+  id: contact
+  attributes: 
+    label: Contact Details
+    description: how can we get in touch with you if we need more info?
+    placeholder: kim77chi@gmail.com
+  validation: 
+    required: true
+    
